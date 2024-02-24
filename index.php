@@ -16,7 +16,7 @@ echo 'Incoming transfer: '.$transfer.' PLN<br>'; //Define incoming transfer
 }
 else
 {
-echo 'Outgoing transfer: '.$transfer.' PLN<br>';
+echo 'Outgoing transfer: '.$transfer.' PLN<br>'; //Define outgoing transfer 
 }
 $accountBallance+=$transfer;
 $transferBallance+=$transfer;
