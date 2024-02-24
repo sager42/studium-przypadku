@@ -25,7 +25,7 @@ $transferBallance+=$transfer;
 echo 'Final account ballance: '.$accountBallance.' PLN<br>';
 if ($accountBallance<0)
 {
-echo 'You have an overdraft!<br>';
+echo 'You have an overdraft! Check your spending to avoid additional payments!<br>';
 }
 if ($transferBallance<0)
 {
