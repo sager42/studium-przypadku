@@ -3,7 +3,7 @@
 <body>
 
 <?php
-$accountBallance=1000;
+$accountBallance=1000; \\Set account balance
 echo 'Initial account ballance: '.$accountBallance.' PLN<br>';
 $transfersarray = array(1=>100, 300 , -1100, -1000); //Initialize the array from which we will generate transfer vizualization
 
